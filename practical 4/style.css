@@ -1,0 +1,89 @@
+
+body, h1, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    width: 900px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    font-size: 1.2em;
+    color: #ff0; /* Adjust hover color if needed */
+}
+
+nav ul li a:active {
+    color: blue; /* Active page color */
+}
+
+main {
+    display: inline-block;
+    justify-content: center;
+    padding: 80px 20px 20px; /* Added top padding to avoid content overlap with fixed header */
+    text-align: center;
+    
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#abc{
+    width: 180px;
+    height: 600px;
+    float: left;
+    text-align:center;
+    border: 2px solid black;
+    
+}
+#def{
+    width: 180px;
+    height: 600px;
+    float: right;
+    text-align:center;
+    border: 2px solid black;
+    
+}
+#bee{
+    width: 400px;
+    height: 600px;
+    float: left;
+    text-align:center;
+    border: 2px solid black;
+}
